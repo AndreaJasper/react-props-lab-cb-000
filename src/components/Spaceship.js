@@ -17,7 +17,7 @@ export default class Spaceship extends React.Component {
     speed: 'slow',
     hasRockets: 'false',
     colors: ['black', 'red']
-  };
+  }
 }
 
 export default Spaceship;
