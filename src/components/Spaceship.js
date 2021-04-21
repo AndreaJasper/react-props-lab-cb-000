@@ -6,7 +6,7 @@ const speed = ['slow', 'lightspeed', 'moderate']
 const hasRockets = ['yes', 'no']
 const colors = ['silver', 'black', 'red', 'orange']
 
-Spaceeship.defaultProps = {
+Spaceship.defaultProps = {
   speed: 'slow',
   hasRockets: 'false',
   colors: ['black', 'red']
