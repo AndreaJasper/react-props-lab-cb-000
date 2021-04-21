@@ -10,8 +10,9 @@ export default class Spaceship extends React.Component {
         <p>Rockets {this.props.hasRockets.to_string()}</p>
         <p>Colors: {this.props.colors.join(',')}</p>
       </div>
-    );
+    )
   }
+}
   
   Spaceship.defaultProps = {
     speed: 'slow',
