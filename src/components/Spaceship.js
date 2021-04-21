@@ -1,12 +1,7 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 
 export default class Spaceship extends React.Component {
-  const name = ['Millennium Falcon', 'TIE Fighter', 'X-Wing', 'Separatist Dreadnought', 'Imperial Shuttle']
-  const speed = ['slow', 'lightspeed', 'moderate']
-  const hasRockets = ['yes', 'no']
-  const colors = ['silver', 'black', 'red', 'orange']
-  
+ 
   Spaceship.defaultProps = {
     speed: 'slow',
     hasRockets: 'false',
@@ -15,10 +10,12 @@ export default class Spaceship extends React.Component {
   
   render () {
     return (
-      <p>{this.props.name}</p>  
-      <p>{this.props.speed}</p>
-      <p>{this.props.rockets}</p>
-      <p>{this.props.colors}</p>
+      <div className="spaceship-card">
+        <h3>{this.props.name}</h3>  
+        <p>Speed: {this.props.speed}</p>
+        <p>Rockets {this.props.hasRockets.to_string()}</p>
+        <p>Colors: {this.props.colors.join(',')}</p>
+      </div>
     );
   }
  
