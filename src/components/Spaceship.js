@@ -3,7 +3,8 @@ import ReactDOM from 'react-dom';
 
 const name = ['Millennium Falcon', 'TIE Fighter', 'X-Wing', 'Separatist Dreadnought', 'Imperial Shuttle']
 const speed = ['slow', 'lightspeed', 'moderate']
-const hasRockets = ['']
+const hasRockets = ['yes', 'no']
+const colors = ['silver', 'black', 'red', 'orange']
 
 Spaceeship.defaultProps = {
   speed: 'slow',
