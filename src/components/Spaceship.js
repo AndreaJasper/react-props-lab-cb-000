@@ -18,7 +18,6 @@ export default class Spaceship extends React.Component {
       </div>
     );
   }
- 
 }
 
 export default Spaceship;
