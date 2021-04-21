@@ -16,9 +16,9 @@ class Spaceship extends React.Component {
   render () {
     return (
       <p>{this.props.name}</p>  
-      <p>{this.props.name}</p>
-      <p>{this.props.name}</p>
-      <p>{this.props.name}</p>
+      <p>{this.props.speed}</p>
+      <p>{this.props.rockets}</p>
+      <p>{this.props.colors}</p>
     );
   }
  
