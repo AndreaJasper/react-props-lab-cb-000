@@ -12,6 +12,15 @@ class Spaceship extends React.Component {
     hasRockets: 'false',
     colors: ['black', 'red']
   };
+  
+  render () {
+    return (
+      <p>{this.props.name}</p>  
+      <p>{this.props.name}</p>
+      <p>{this.props.name}</p>
+      <p>{this.props.name}</p>
+    );
+  }
  
 }
 
